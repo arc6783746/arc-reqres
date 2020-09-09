@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Arc reqres' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Arc reqres
+  pod 'Alamofire', '~> 4.7'
+  pod 'Alamofire-SwiftyJSON'
+  pod 'SwiftyJSON', '~> 4.0'
+  pod 'NVActivityIndicatorView', '~> 4.8'
+  pod 'SDWebImage', '~> 5.0'
+
+end
